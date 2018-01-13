@@ -2,7 +2,10 @@
   "name": "doygen-doy",
   "version": "0.0.1",
   "description": "A command-line tool for generating code based on Doygen",
-  "main": "index.js",
+  "main": "lib",
+  "bin": {
+    "doy": "lib/cli.js"
+  },
   "scripts": {
     "test": "test"
   },
@@ -15,14 +18,11 @@
   ],
   "author": "Rodrigo Vilar",
   "license": "ISC",
-  "bin": {
-    "doy": "./index.js"
-  },
   "bugs": {
     "url": "https://github.com/doygen/doy/issues"
   },
   "homepage": "https://github.com/doygen/doy#readme",
   "dependencies": {
-    "commander": "^2.12.2"
+    "commander": "^2.13.0"
   }
 }

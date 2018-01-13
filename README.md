@@ -16,4 +16,4 @@ npm install --global doygen-doy
 # check doy installation
 doy -V
 doy --version
-```
+```d
