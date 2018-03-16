@@ -10,7 +10,7 @@ PotterJS is a new kind of code generator that organizes code generation template
 
 ```sh
 # install potterjs
-npm install --global doygen-doy
+npm install --global potter-pot
 
 
 # check doy installation
