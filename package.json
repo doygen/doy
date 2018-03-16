@@ -24,13 +24,10 @@
     }
   ],
   "license": "MIT",
-  "bin": {
-    "doy": "./index.js"
-  },
   "bugs": {
     "url": "https://github.com/potterjs/pot/issues"
   },
-  "homepage": "https://github.com/potterjs/pot/#readme",
+  "homepage": "https://github.com/potterjs/pot#readme",
   "dependencies": {
     "commander": "^2.12.2"
   }
