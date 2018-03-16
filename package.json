@@ -1,27 +1,36 @@
 {
-  "name": "doygen-doy",
-  "version": "0.0.1",
-  "description": "A command-line tool for generating code based on Doygen",
-  "main": "index.js",
+  "name": "potterjs-pot",
+  "version": "0.1.0",
+  "description": "A command-line tool for generating code based on PotterJS",
+  "main": "lib/api",
+  "bin": {
+    "doy": "lib/cli.js"
+  },
   "scripts": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/doygen/doy.git"
+    "url": "git+https://github.com/potterjs/pot.git"
   },
   "keywords": [
     "cli"
   ],
-  "author": "Rodrigo Vilar",
-  "license": "ISC",
+  "author": "Artur Farias <artur.farias@embedded.ufcg.edu.br>",
+  "contributors": [
+    {
+      "name": "Rodirgo A Vilar",
+      "email": "rodrigovilar@dce.ufpb.br"
+    }
+  ],
+  "license": "MIT",
   "bin": {
     "doy": "./index.js"
   },
   "bugs": {
-    "url": "https://github.com/doygen/doy/issues"
+    "url": "https://github.com/potterjs/pot/issues"
   },
-  "homepage": "https://github.com/doygen/doy#readme",
+  "homepage": "https://github.com/potterjs/pot/#readme",
   "dependencies": {
     "commander": "^2.12.2"
   }

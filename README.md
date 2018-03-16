@@ -1,19 +1,19 @@
-# doy
+# pot
 
-Doygen CLI tool
+PotterJS CLI tool
 
-## What's Doygen?
+## What's PotterJS?
 
-Doygen is a new kind of code generator that organizes code generation templates, helping you stay productive.
+PotterJS is a new kind of code generator that organizes code generation templates, helping you stay productive.
 
 ## Usage
 
 ```sh
-# install doy
+# install potterjs
 npm install --global doygen-doy
 
 
 # check doy installation
-doy -V
-doy --version
+pot -V
+pot --version
 ```
