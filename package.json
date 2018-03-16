@@ -4,8 +4,11 @@
   "description": "A command-line tool for generating code based on PotterJS",
   "main": "lib/api",
   "bin": {
-    "doy": "lib/cli.js"
+    "pot": "lib/cli.js"
   },
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "test": "test"
   },
